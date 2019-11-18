@@ -20,3 +20,5 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+note.md
+后台 API 接口文档.md
