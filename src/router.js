@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Login from './components/login.vue'
 import Home from './components/Home.vue'
 import Welcome from './components/Welcome'
+import Users from './components/Users'
 Vue.use(Router)
 
 const router = new Router({
@@ -21,6 +22,10 @@ const router = new Router({
     children: [{
       path: '/welcome',
       component: Welcome
+    },
+    {
+      path: '/users',
+      component: Users
     }]
   }
   ]
