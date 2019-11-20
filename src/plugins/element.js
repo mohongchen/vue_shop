@@ -58,4 +58,7 @@ Vue.use(Dialog)
 // 挂载到原型对象上
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
+<<<<<<< HEAD
+>>>>>>> 287a50d... 用户添加删除修改
+=======
 >>>>>>> 287a50d... 用户添加删除修改
