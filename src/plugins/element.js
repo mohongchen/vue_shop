@@ -60,6 +60,9 @@ Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 287a50d... 用户添加删除修改
+=======
 >>>>>>> 287a50d... 用户添加删除修改
 =======
 >>>>>>> 287a50d... 用户添加删除修改
