@@ -11,6 +11,7 @@ module.exports = {
     'no-console': 'off',
     'no-debugger': 'off',
     'space-before-function-paren':0,
+    'no-unused-expressions': 0
   },
   parserOptions: {
     parser: 'babel-eslint'
