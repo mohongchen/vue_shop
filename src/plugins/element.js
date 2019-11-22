@@ -39,7 +39,9 @@ import {
   Checkbox,
   Upload
 } from 'element-ui'
-
+// 导入timeline组件因为cli里的element版本太低
+import TimeLine from './timeline/index'
+import TimeLineItem from './timeline-item/index'
 Vue.use(Button)
 Vue.use(Form)
 Vue.use(FormItem)
@@ -76,6 +78,8 @@ Vue.use(Steps)
 Vue.use(Checkbox)
 Vue.use(CheckboxGroup)
 Vue.use(Upload)
+Vue.use(TimeLine)
+Vue.use(TimeLineItem)
 // 挂载到原型对象上
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm

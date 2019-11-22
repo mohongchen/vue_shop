@@ -330,7 +330,7 @@ export default {
     },
     // 添加商品按钮的点击事件
     add() {
-      this.$refs.addFormRef.validate(valid => {
+      this.$refs.addFormRef.validate(async valid => {
         if (!valid) {
           this.$message.error('请填写必要的表单项')
         }
